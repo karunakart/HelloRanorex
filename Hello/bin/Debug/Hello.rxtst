@@ -11,7 +11,7 @@ rxversion="8.1">
 			</testmodule>
 			<testcase
 			datarangeactive="True"
-			datasource="NewConnector"
+			datasource="readfromgit"
 			id="3d254976-4818-4fbd-88f6-9e46fc07c202"
 			maxrange="1"
 			minrange="1"
@@ -91,7 +91,7 @@ rxversion="8.1">
 		id="a749a7a5-6401-4052-8d88-88727aef2287"
 		includefile="Unchecked"
 		lastknownrowcount="2"
-		name="NewConnector"
+		name="readfromgit"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">
 			<lastknowncolumns>
@@ -108,7 +108,7 @@ rxversion="8.1">
 			<maskedcolumns>
 			</maskedcolumns>
 			<file>
-				D:\Learning\Ranorex\Hello\hellocsv.csv
+				hellocsv.csv
 			</file>
 		</DataSource>
 	</datasources>

@@ -2,11 +2,8 @@
   <ActiveConfiguration value="Debug" />
   <ActivePlatform value="x86" />
   <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <string>{D5CA8CB9-48E6-4C4D-84FD-2C45A13FC56A}</string>
-      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
-    </ArrayOfString>
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
   </SerializedValue>
-  <ProjectBrowserState value="[Solution Hello[Hello[Reports[]]]]&#xD;&#xA;Solution Hello\Hello\SearchAndValidateKeyword.rxrec&#xD;&#xA;Solution Hello\Hello\Reports\Hello_20180606_150454.rxlog" />
+  <ProjectBrowserState value="[Solution Hello[]]&#xD;&#xA;Solution Hello\Hello&#xD;&#xA;Solution Hello" />
   <StartupProject value="{D5CA8CB9-48E6-4C4D-84FD-2C45A13FC56A}" />
 </Properties>

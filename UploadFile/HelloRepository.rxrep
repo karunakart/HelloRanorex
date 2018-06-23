@@ -1,0 +1,148 @@
+﻿<repository
+id="02b69555-85ed-40d8-8a94-add7eaeb482b"
+name="HelloRepository"
+rxversion="8.1">
+	<codegen
+	classname="HelloRepository"
+	namespace="UploadFile">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="798fb687-9336-4b77-9fc5-dfc140d651cd"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="5a1666c1-5747-4aef-a4d2-30c7aa95ee90"
+		isrooted="True"
+		name="FileuploadPage"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="eec096b6-7342-4584-9f4c-5a727517cf48"
+			name="FIleuploadLInk"
+			refimgid="16da54be-ee7d-46ef-b97a-e9f95a2251da"
+			searchtimeout="30000ms">
+				/dom[@domain='encodable.com']//input[#'uploadname1']
+			</item>
+			<basepath>
+				/dom[@domain='encodable.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<folder
+		capname="host"
+		id="ba08fe35-305b-4552-9eea-cc7f5a416ee9"
+		isrooted="False"
+		name="NewFolder"
+		searchtimeout="0ms">
+			<appfolder
+			capname="form"
+			id="ed5af4ed-adaa-4bee-999e-3f6a65520d82"
+			isrooted="True"
+			name="Open"
+			refpath="/form[@title='Open']"
+			searchtimeout="30000ms"
+			usecache="True">
+				<item
+				addcaps="text,nativewindow"
+				capname="text"
+				id="f38b0f7c-e955-4bea-9baf-37c52633fa79"
+				name="Text1148"
+				refimgid="1020808d-71a9-4148-96ae-bb85fdff493c"
+				refpath="/form[@title='Open']/combobox[@controlid='1148']/text[@controlid='1148']"
+				searchtimeout="30000ms">
+					/form[@title='Open']/?/?/text[@controlid='1148']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="ba8ea290-77ee-4021-8ad6-197a44a13be2"
+				name="ButtonOpen"
+				refimgid="a98aae96-4e0d-47bb-81a0-5cc8709e4e62"
+				refpath="/form[@title='Open']/button[@text='&amp;Open']"
+				searchtimeout="30000ms">
+					/form[@title='Open']/button[@text='&amp;Open']
+				</item>
+				<basepath>
+					/form[@title='Open']
+				</basepath>
+				<icon>
+					iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAE5JREFUOE9joCqIior6jw3r6uo2QJXgByDFUCYcgMT8/PweEGUILgPY
+2dkViDIElwEgmihDcBmAjqFSmACvJBSMGjAyDCAGQ5VTAzAwAADLCWQhPxL42AAAAABJRU5ErkJg
+gg==
+				</icon>
+			</appfolder>
+		</folder>
+		<appfolder
+		capname="webdocument"
+		id="3dc309ae-f5a1-4063-866a-e6429a17f362"
+		isrooted="True"
+		name="ComEd"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="8b472d5d-e150-4b23-a0e3-635567a818f7"
+			name="LnkBtnUploadNewBox"
+			searchtimeout="30000ms">
+				/dom[@domain=$CustomerPortalDom1 or @domain=$CustomerPortalDom2 or @visible='True']//a[#'lnkBtnUploadNewBox']
+			</item>
+			<basepath>
+				/dom[@domain=$CustomerPortalDom1 or @domain=$CustomerPortalDom2 or @visible='True']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="076712ac-500d-41db-81ce-3df128292278"
+		name="sk">
+		</var>
+		<var
+		id="8b1fd1a2-dd2a-4f89-a454-5869422f5168"
+		name="CustomerPortalDom1">
+		</var>
+		<var
+		id="ad679993-f759-4a0d-8661-05ce87dd87df"
+		name="CustomerPortalDom2">
+		</var>
+	</variables>
+</repository>

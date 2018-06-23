@@ -1,13 +1,11 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="SearchAndValidateKeyword.rxrec" />
+    <Element value="Hello.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="Hello.rxtst" />
-    <Element value="SearchAndValidateKeyword.rxrec" />
     <Element value="UserCodeCollection1.cs" />
-    <Element value="HelloRepository.rxrep" />
+    <Element value="Hello.rxtst" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

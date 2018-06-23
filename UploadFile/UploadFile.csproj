@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{F481DF27-F57F-43FC-9D97-19A09458878E}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>UploadFile</RootNamespace>
+    <AssemblyName>UploadFile</AssemblyName>
+    <RanorexVersion>8.1</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>6f88b22b-f9fe-4195-8c9c-c6e16a4018f0</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <ReferencePath>D:\Learning\Ranorex\</ReferencePath>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>False</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>cfa66c51-50e9-4338-8202-e6f55047af08</id>
+    </Compile>
+    <Compile Include="HelloRepository.cs">
+      <DependentUpon>HelloRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>24a77520-84f2-4d03-bc54-92c8fc10458f</id>
+      <BoundTo>0ef716fd-ce14-4e1b-8d87-a7dbd30dc23d</BoundTo>
+    </Compile>
+    <Compile Include="UploadFIleDemo.cs">
+      <DependentUpon>UploadFIleDemo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c11ed64d-34b4-410e-b542-f5ac85b52478</id>
+      <BoundTo>a1fff686-f19c-426f-98a0-a91516ac5c80</BoundTo>
+    </Compile>
+    <Compile Include="UploadFIleDemo.UserCode.cs">
+      <DependentUpon>UploadFIleDemo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>33c62b9e-a9ad-4f15-9192-2519047e496c</id>
+      <BoundTo>a1fff686-f19c-426f-98a0-a91516ac5c80</BoundTo>
+    </Compile>
+    <Compile Include="UploadFileRepository.cs">
+      <BoundTo>6f88b22b-f9fe-4195-8c9c-c6e16a4018f0</BoundTo>
+      <DependentUpon>UploadFileRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>101fea43-9f2f-48f0-9b7a-190886ca4929</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HelloRepository.rximg">
+      <DependentUpon>HelloRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>06964fb8-8120-4f5a-85c0-020e8c7080b6</id>
+      <BoundTo>0ef716fd-ce14-4e1b-8d87-a7dbd30dc23d</BoundTo>
+    </None>
+    <None Include="HelloRepository.rxrep">
+      <id>0ef716fd-ce14-4e1b-8d87-a7dbd30dc23d</id>
+      <repoid>02b69555-85ed-40d8-8a94-add7eaeb482b</repoid>
+      <reporootid>798fb687-9336-4b77-9fc5-dfc140d651cd</reporootid>
+    </None>
+    <None Include="UploadFIleDemo.rxrec">
+      <id>a1fff686-f19c-426f-98a0-a91516ac5c80</id>
+      <recordtableid>4475b32c-14a6-4ec8-9eca-1fdb654b21ea</recordtableid>
+      <BoundTo>6f88b22b-f9fe-4195-8c9c-c6e16a4018f0</BoundTo>
+    </None>
+    <None Include="UploadFileRepository.rximg">
+      <BoundTo>6f88b22b-f9fe-4195-8c9c-c6e16a4018f0</BoundTo>
+      <DependentUpon>UploadFileRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>91948cd2-4da2-4300-8761-d5dd2f0f092f</id>
+    </None>
+    <None Include="UploadFileRepository.rxrep">
+      <id>6f88b22b-f9fe-4195-8c9c-c6e16a4018f0</id>
+      <repoid>595d1dfc-70eb-479e-b016-d44cc2ec19b0</repoid>
+      <reporootid>b6713d9c-3c56-48d8-aa66-11ed1a770bf6</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UploadFile.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>6abdd66d-da48-4e7f-83ac-886801c28c9b</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

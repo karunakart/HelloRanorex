@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="UploadFile"
+      id="c1f89f45-cc16-480f-bfd1-2a5a6c05522e"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="UploadFile"
+      id="c1f89f45-cc16-480f-bfd1-2a5a6c05522e"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
