@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ab0f47815013f58"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Karunakar_Therupally"
+		rxversion="8.1.1.0"
+		host="EPINHYDW1068"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="6/7/2018 4:14:20 PM"
+		timestampiso="2018-06-07T10:44:20"
+		endtime="6/7/2018 4:15:24 PM"
+		timeoutfactor="1"
+		module="SearchAndValidateKeyword">
+		<detail>
+			SearchAndValidateKeyword
+		</detail>
+		<errormessage>
+			Failed to find item 'HelloRepository.Google.LstIb'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.403"
+			timeRelativeToTestModuleStartTime="00:01.403"
+			timeWallClock="16:14:21"
+			time="00:01.403"
+			level="Warn"
+			category="Data"
+			errimg=".\SearchAn_df2c4569_76e1d891_trace.jpg"
+			errthumb=".\SearchAn_df2c4569_76e1d891_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>searchedvalues, ResultStats, sk
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.465"
+			timeRelativeToTestModuleStartTime="00:01.465"
+			timeWallClock="16:14:21"
+			time="00:01.465"
+			level="Info"
+			category="Keyboard"
+			errimg=".\SearchAn_df2c4569_76e1d891_trace.jpg"
+			errthumb=".\SearchAn_df2c4569_76e1d891_trace_thumb.jpg">
+			<message>
+				Key 'Ctrl+A' Press.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="D:\Learning\Ranorex\Hello\Hello\SearchAndValidateKeyword.cs"
+				codeline="119"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.625"
+			timeRelativeToTestModuleStartTime="00:01.625"
+			timeWallClock="16:14:22"
+			time="00:01.625"
+			level="Info"
+			category="Keyboard"
+			errimg=".\SearchAn_df2c4569_048a3615_trace.jpg"
+			errthumb=".\SearchAn_df2c4569_048a3615_trace_thumb.jpg">
+			<message>
+				Key sequence from variable '$sk' with focus on 'Google.LstIb'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//input[#'lst-ib']"
+				itempath=".//input[#'lst-ib']"
+				fullname="HelloRepository.Google.LstIb"
+				id="eec096b6734245849f4c5a727517cf48"
+				timeout="60000"
+				codefile="D:\Learning\Ranorex\Hello\Hello\SearchAndValidateKeyword.cs"
+				codeline="123"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.403"
+			timeRelativeToTestModuleStartTime="01:03.403"
+			timeWallClock="16:15:23"
+			time="01:03.403"
+			level="Error"
+			category="Module"
+			errimg=".\SearchAn_df2c4569_489f4f75_trace.jpg"
+			errthumb=".\SearchAn_df2c4569_489f4f75_trace_thumb.jpg">
+			<message>
+				Failed to find item 'HelloRepository.Google.LstIb'.<br/>No element found for path '/dom[@domain='www.google.com']//input[#'lst-ib']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at Hello.HelloRepositoryFolders.GoogleAppFolder.get_LstIb() in D:\Learning\Ranorex\Hello\Hello\HelloRepository.cs:line 158&#13;&#10;   at Hello.SearchAndValidateKeyword.Ranorex.Core.Testing.ITestModule.Run() in D:\Learning\Ranorex\Hello\Hello\SearchAndValidateKeyword.cs:line 124&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Learning\Ranorex\Hello\Hello\SearchAndValidateKeyword.cs"
+				codeline="124"
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//input[#'lst-ib']"
+				itempath=".//input[#'lst-ib']"
+				fullname="HelloRepository.Google.LstIb"
+				id="eec096b6734245849f4c5a727517cf48"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

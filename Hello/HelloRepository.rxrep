@@ -1,0 +1,131 @@
+﻿<repository
+id="15165c6b-844d-4a98-938f-33939f2afb47"
+name="HelloRepository"
+rxversion="8.1">
+	<codegen
+	classname="HelloRepository"
+	namespace="Hello">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="798fb687-9336-4b77-9fc5-dfc140d651cd"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="5a1666c1-5747-4aef-a4d2-30c7aa95ee90"
+		isrooted="True"
+		name="Google"
+		refpath="/dom[@domain='www.google.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="eec096b6-7342-4584-9f4c-5a727517cf48"
+			name="LstIb"
+			refimgid="16da54be-ee7d-46ef-b97a-e9f95a2251da"
+			refpath="/dom[@domain='www.google.com']//input[#'lst-ib']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.google.com']//input[#'lst-ib']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="99063f57-daf6-452f-bb95-39b56cda22d6"
+			name="BtnK"
+			refimgid="6a51af5c-6581-42ee-a4f6-80eaab21ecf5"
+			refpath="/dom[@domain='www.google.com']//form[#'tsf']/div[2]/div[3]/center/input[@name='btnK']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.google.com']//form[#'tsf']/div[2]//input[@name='btnK']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="6dc38630-323b-4a56-9174-998a7a004853"
+			name="ResultStats"
+			refimgid="4f231592-5a1c-4b9b-9494-f3673aa965f0"
+			refpath="/dom[@domain='www.google.com']//div[#'resultStats']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.google.com']//div[#'resultStats']
+			</item>
+			<basepath>
+				/dom[@domain='www.google.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="a73cd204-2c4a-4d90-bb84-46eef95cd63c"
+		isrooted="True"
+		name="HelloGoogleSearchGoogleChrome"
+		refpath="/form[@title='hello - Google Search - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="667a0d8b-ab3e-4cae-9864-5d42837e5ff9"
+			name="HelloGoogleSearch"
+			refimgid="4815643f-fe17-42f0-b176-3102f175d902"
+			refpath="/form[@title~'^hello\ -\ Google\ Search\ -\ G']/container/container/container[2]/container[2]/tabpagelist/tabpage/text[@accessiblename='hello - Google Search']"
+			searchtimeout="30000ms">
+				/form[@title~'^hello\ -\ Google\ Search\ -\ G']/container[@accessiblename~'^hello\ -\ Google\ Search\ -\ G']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='hello - Google Search']/text[@accessiblename='hello - Google Search']
+			</item>
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="f4a8d081-72a2-49d6-9f8c-c703303582bc"
+			name="HelloGoogleSearchGoogleChrome"
+			refimgid="0d8fa850-cc96-4ff4-a819-d729d28b1532"
+			searchtimeout="30000ms">
+				/form[@title~'^hello\ -\ Google\ Search\ -\ G']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<basepath>
+				/form[@title~'^hello\ -\ Google\ Search\ -\ G']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="7a28c22e-e685-4e4e-9f67-d3640ffd14ea"
+		name="sk">
+		</var>
+	</variables>
+</repository>

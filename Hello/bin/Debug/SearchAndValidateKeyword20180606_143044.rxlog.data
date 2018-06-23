@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="25.5s"
+		durationms="25503"
+		type="root"
+		rid="1d135d64c6872874"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Karunakar_Therupally"
+		rxversion="8.1.1.0"
+		host="EPINHYDW1068"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="6/6/2018 2:30:50 PM"
+		timestampiso="2018-06-06T09:00:50"
+		endtime="6/6/2018 2:31:15 PM"
+		timeoutfactor="1"
+		module="SearchAndValidateKeyword">
+		<detail>
+			SearchAndValidateKeyword
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.670"
+			timeRelativeToTestModuleStartTime="00:00.670"
+			timeWallClock="14:30:50"
+			time="00:00.670"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>title, sk
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.701"
+			timeRelativeToTestModuleStartTime="00:00.701"
+			timeWallClock="14:30:50"
+			time="00:00.701"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+A' Press.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="D:\Learning\Ranorex\Hello\Hello\SearchAndValidateKeyword.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.839"
+			timeRelativeToTestModuleStartTime="00:00.839"
+			timeWallClock="14:30:50"
+			time="00:00.839"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$sk' with focus on 'Google.LstIb'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//input[#'lst-ib']"
+				itempath=".//input[#'lst-ib']"
+				fullname="HelloRepository.Google.LstIb"
+				id="eec096b6734245849f4c5a727517cf48"
+				timeout="60000"
+				codefile="D:\Learning\Ranorex\Hello\Hello\SearchAndValidateKeyword.cs"
+				codeline="110"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.503"
+			timeRelativeToTestModuleStartTime="00:25.503"
+			timeWallClock="14:31:15"
+			time="00:25.503"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

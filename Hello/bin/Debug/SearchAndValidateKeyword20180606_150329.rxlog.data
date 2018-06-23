@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2b5edf65dc06b7e"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Karunakar_Therupally"
+		rxversion="8.1.1.0"
+		host="EPINHYDW1068"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="6/6/2018 3:03:40 PM"
+		timestampiso="2018-06-06T09:33:40"
+		endtime="6/6/2018 3:03:41 PM"
+		timeoutfactor="1"
+		module="SearchAndValidateKeyword">
+		<detail>
+			SearchAndValidateKeyword
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.881"
+			timeRelativeToTestModuleStartTime="00:00.881"
+			timeWallClock="15:03:41"
+			time="00:00.881"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>title, ResultStats, sk
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.934"
+			timeRelativeToTestModuleStartTime="00:00.934"
+			timeWallClock="15:03:41"
+			time="00:00.934"
+			level="Info"
+			category="User">
+			<message>
+				Current time:6/6/2018 3:03:41 PM
+			</message>
+			<metainfo
+				codefile="D:\Learning\Ranorex\Hello\Hello\UserCodeCollection1.cs"
+				codeline="40"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.941"
+			timeRelativeToTestModuleStartTime="00:00.941"
+			timeWallClock="15:03:41"
+			time="00:00.941"
+			level="Info"
+			category="User">
+			<message>
+				New time: 6/6/2018 3:04:11 PM
+			</message>
+			<metainfo
+				codefile="D:\Learning\Ranorex\Hello\Hello\UserCodeCollection1.cs"
+				codeline="42"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
