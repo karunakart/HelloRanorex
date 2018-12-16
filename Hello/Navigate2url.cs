@@ -69,7 +69,7 @@ namespace Hello
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -81,7 +81,7 @@ namespace Hello
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
@@ -94,8 +94,8 @@ namespace Hello
             Host.Current.OpenBrowser("http://google.com", "chrome", "", false, false, false, false, false);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Google.LstIb' at 59;19.", repo.Google.LstIbInfo, new RecordItemIndex(1));
-            repo.Google.LstIb.Click("59;19");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Google.SearchField' at Center.", repo.Google.SearchFieldInfo, new RecordItemIndex(1));
+            repo.Google.SearchField.Click();
             Delay.Milliseconds(200);
             
         }

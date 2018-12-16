@@ -1,7 +1,7 @@
 ﻿<repository
 id="15165c6b-844d-4a98-938f-33939f2afb47"
 name="HelloRepository"
-rxversion="8.1">
+rxversion="8.2">
 	<codegen
 	classname="HelloRepository"
 	namespace="Hello">
@@ -26,21 +26,19 @@ rxversion="8.1">
 			addcaps="unknown,webelement,inputtag"
 			capname="inputtag"
 			id="eec096b6-7342-4584-9f4c-5a727517cf48"
-			name="LstIb"
+			name="SearchField"
 			refimgid="16da54be-ee7d-46ef-b97a-e9f95a2251da"
-			refpath="/dom[@domain='www.google.com']//input[#'lst-ib']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.google.com']//input[#'lst-ib']
+				/dom[@domain='www.google.com']//input[@class='gLFyf gsfi']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
 			capname="inputtag"
 			id="99063f57-daf6-452f-bb95-39b56cda22d6"
-			name="BtnK"
+			name="SearchButton"
 			refimgid="6a51af5c-6581-42ee-a4f6-80eaab21ecf5"
-			refpath="/dom[@domain='www.google.com']//form[#'tsf']/div[2]/div[3]/center/input[@name='btnK']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.google.com']//form[#'tsf']/div[2]//input[@name='btnK']
+				/dom[@domain='www.google.com']//div[@class='FPdoLc VlcLAe']//input[@value='Google Search' and @name='btnK' and @type='submit']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"

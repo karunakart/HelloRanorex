@@ -95,7 +95,7 @@ namespace Hello
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -107,7 +107,7 @@ namespace Hello
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
@@ -120,16 +120,16 @@ namespace Hello
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$sk' with focus on 'Google.LstIb'.", repo.Google.LstIbInfo, new RecordItemIndex(1));
-            repo.Google.LstIb.PressKeys(sk);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$sk' with focus on 'Google.SearchField'.", repo.Google.SearchFieldInfo, new RecordItemIndex(1));
+            repo.Google.SearchField.PressKeys(sk);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}' with focus on 'Google.LstIb'.", repo.Google.LstIbInfo, new RecordItemIndex(2));
-            repo.Google.LstIb.PressKeys("{Tab}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}' with focus on 'Google.SearchField'.", repo.Google.SearchFieldInfo, new RecordItemIndex(2));
+            repo.Google.SearchField.PressKeys("{Tab}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Google.BtnK' at 93;23.", repo.Google.BtnKInfo, new RecordItemIndex(3));
-            repo.Google.BtnK.Click("93;23");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Google.SearchButton' at 93;23.", repo.Google.SearchButtonInfo, new RecordItemIndex(3));
+            repo.Google.SearchButton.Click("93;23");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'Google.ResultStats' and assigning its value to variable 'ResultStats'.", repo.Google.ResultStatsInfo, new RecordItemIndex(4));

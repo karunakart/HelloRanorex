@@ -22,7 +22,7 @@ namespace UploadFile
     /// <summary>
     /// The class representing the UploadFileRepository element repository.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
     [RepositoryFolder("b6713d9c-3c56-48d8-aa66-11ed1a770bf6")]
     public partial class UploadFileRepository : RepoGenBaseFolder
     {
@@ -122,7 +122,7 @@ namespace UploadFile
     /// <summary>
     /// Inner folder classes.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
     public partial class UploadFileRepositoryFolders
     {
         /// <summary>

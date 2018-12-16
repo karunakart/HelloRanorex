@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>UploadFile</RootNamespace>
     <AssemblyName>UploadFile</AssemblyName>
-    <RanorexVersion>8.1</RanorexVersion>
+    <RanorexVersion>8.2</RanorexVersion>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
     <projectdefaultrepository>6f88b22b-f9fe-4195-8c9c-c6e16a4018f0</projectdefaultrepository>
@@ -63,6 +63,9 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
       <Private>False</Private>
     </Reference>
     <Reference Include="Ranorex.Plugin.FirefoxWeb">

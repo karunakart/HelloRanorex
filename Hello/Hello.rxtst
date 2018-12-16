@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc
-rxversion="8.1">
+rxversion="8.2">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
@@ -13,8 +13,8 @@ rxversion="8.1">
 			datarangeactive="True"
 			datasource="readfromgit"
 			id="3d254976-4818-4fbd-88f6-9e46fc07c202"
-			maxrange="1"
-			minrange="1"
+			maxrange="0"
+			minrange="0"
 			name="TestCase">
 			</testcase>
 			<testmodule
@@ -90,7 +90,7 @@ rxversion="8.1">
 		<DataSource
 		id="a749a7a5-6401-4052-8d88-88727aef2287"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="1"
 		name="readfromgit"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">
@@ -108,7 +108,7 @@ rxversion="8.1">
 			<maskedcolumns>
 			</maskedcolumns>
 			<file>
-				hellocsv.csv
+				D:\Learning\Ranorex\HelloConnectGit\hellocsv.csv
 			</file>
 		</DataSource>
 	</datasources>

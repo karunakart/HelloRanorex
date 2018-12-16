@@ -1,5 +1,5 @@
 ﻿<configuration
-rxversion="8.1">
+rxversion="8.2">
 	<adapter.defaultsearchtimeout>
 		10000ms
 	</adapter.defaultsearchtimeout>
@@ -394,7 +394,7 @@ rxversion="8.1">
 		True
 	</TestCase.Retry.ShowWarning>
 	<TestExecution.CopyRuntimeToOutput>
-		False
+		True
 	</TestExecution.CopyRuntimeToOutput>
 	<plugins.win32.EnableBasicDelphiSupport>
 		True

@@ -1,7 +1,8 @@
-﻿<repository
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
 id="02b69555-85ed-40d8-8a94-add7eaeb482b"
 name="HelloRepository"
-rxversion="8.1">
+rxversion="8.2">
 	<codegen
 	classname="HelloRepository"
 	namespace="UploadFile">

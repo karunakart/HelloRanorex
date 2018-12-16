@@ -104,7 +104,7 @@ namespace UploadFile
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -116,7 +116,7 @@ namespace UploadFile
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
@@ -133,9 +133,9 @@ namespace UploadFile
             repo.FileuploadPage.FIleuploadLInk.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'hellocsv.csv' with focus on 'NewFolder.Open.Text1148'.", repo.NewFolder.Open.Text1148Info, new RecordItemIndex(2));
-            repo.NewFolder.Open.Text1148.PressKeys("hellocsv.csv");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '' with focus on 'NewFolder.Open.Text1148'.", repo.NewFolder.Open.Text1148Info, new RecordItemIndex(2));
+            repo.NewFolder.Open.Text1148.PressKeys("");
+            Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'NewFolder.Open.ButtonOpen' at 45;10.", repo.NewFolder.Open.ButtonOpenInfo, new RecordItemIndex(3));
             repo.NewFolder.Open.ButtonOpen.Click("45;10");

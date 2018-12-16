@@ -93,6 +93,12 @@ namespace Hello
             myConn.Store();
         }
 
-        
+         [UserCodeMethod]
+        public static String GetTestDataFilepath()
+        {
+			return TestSuite.WorkingDirectory.ToString(); 
+        }
     }
+
+    	
 }

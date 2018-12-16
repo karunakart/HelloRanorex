@@ -3,6 +3,7 @@
   <Array name="files">
     <Element value="Hello.rxtst" />
     <Element value="UserCodeCollection1.cs" />
+    <Element value="SearchAndValidateKeyword.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

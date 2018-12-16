@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="4475b32c-14a6-4ec8-9eca-1fdb654b21ea"
 mode="Desktop"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		UploadFIleDemo
 	</name>
@@ -316,7 +316,7 @@ BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="hellocsv.csv"
+		KeySequence=""
 		duration="100ms"
 		enabled="True"
 		optional="False"

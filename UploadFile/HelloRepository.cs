@@ -22,7 +22,7 @@ namespace UploadFile
     /// <summary>
     /// The class representing the HelloRepository element repository.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
     [RepositoryFolder("798fb687-9336-4b77-9fc5-dfc140d651cd")]
     public partial class HelloRepository : RepoGenBaseFolder
     {
@@ -134,7 +134,7 @@ namespace UploadFile
     /// <summary>
     /// Inner folder classes.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
     public partial class HelloRepositoryFolders
     {
         /// <summary>

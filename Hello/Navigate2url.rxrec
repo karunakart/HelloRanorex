@@ -3,7 +3,7 @@
 embeddedrepository="False"
 id="c6ed12d1-6d5c-4426-a2df-2f0a96bd8fa4"
 mode="Desktop"
-rxversion="8.1">
+rxversion="8.2">
 	<name>
 		Navigate2url
 	</name>
@@ -56,7 +56,7 @@ rxversion="8.1">
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="59;19"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="cbcea779-cd4c-418d-abe1-1fd143fe6b7c"
@@ -315,7 +315,7 @@ BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 	id="15165c6b-844d-4a98-938f-33939f2afb47"
 	name="HelloRepository"
 	relativepath="HelloRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="HelloRepository"
 		namespace="Hello">

@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Hello</RootNamespace>
     <AssemblyName>Hello</AssemblyName>
-    <RanorexVersion>8.1</RanorexVersion>
+    <RanorexVersion>8.2</RanorexVersion>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
     <projectdefaultrepository>37313199-3eae-4529-aee7-cc0dce11c457</projectdefaultrepository>
@@ -48,6 +48,9 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
       <Private>False</Private>
     </Reference>
     <Reference Include="Ranorex.Plugin.FirefoxWeb">

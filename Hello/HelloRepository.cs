@@ -22,7 +22,7 @@ namespace Hello
     /// <summary>
     /// The class representing the HelloRepository element repository.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
     [RepositoryFolder("798fb687-9336-4b77-9fc5-dfc140d651cd")]
     public partial class HelloRepository : RepoGenBaseFolder
     {
@@ -99,7 +99,7 @@ namespace Hello
     /// <summary>
     /// Inner folder classes.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.1")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.2")]
     public partial class HelloRepositoryFolders
     {
         /// <summary>
@@ -108,8 +108,8 @@ namespace Hello
         [RepositoryFolder("5a1666c1-5747-4aef-a4d2-30c7aa95ee90")]
         public partial class GoogleAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _lstibInfo;
-            RepoItemInfo _btnkInfo;
+            RepoItemInfo _searchfieldInfo;
+            RepoItemInfo _searchbuttonInfo;
             RepoItemInfo _resultstatsInfo;
 
             /// <summary>
@@ -118,8 +118,8 @@ namespace Hello
             public GoogleAppFolder(RepoGenBaseFolder parentFolder) :
                     base("Google", "/dom[@domain='www.google.com']", parentFolder, 30000, null, false, "5a1666c1-5747-4aef-a4d2-30c7aa95ee90", "")
             {
-                _lstibInfo = new RepoItemInfo(this, "LstIb", ".//input[#'lst-ib']", 30000, null, "eec096b6-7342-4584-9f4c-5a727517cf48");
-                _btnkInfo = new RepoItemInfo(this, "BtnK", ".//form[#'tsf']/div[2]//input[@name='btnK']", 30000, null, "99063f57-daf6-452f-bb95-39b56cda22d6");
+                _searchfieldInfo = new RepoItemInfo(this, "SearchField", ".//input[@class='gLFyf gsfi']", 30000, null, "eec096b6-7342-4584-9f4c-5a727517cf48");
+                _searchbuttonInfo = new RepoItemInfo(this, "SearchButton", ".//div[@class='FPdoLc VlcLAe']//input[@value='Google Search' and @name='btnK' and @type='submit']", 30000, null, "99063f57-daf6-452f-bb95-39b56cda22d6");
                 _resultstatsInfo = new RepoItemInfo(this, "ResultStats", ".//div[#'resultStats']", 30000, null, "6dc38630-323b-4a56-9174-998a7a004853");
             }
 
@@ -148,50 +148,50 @@ namespace Hello
             }
 
             /// <summary>
-            /// The LstIb item.
+            /// The SearchField item.
             /// </summary>
             [RepositoryItem("eec096b6-7342-4584-9f4c-5a727517cf48")]
-            public virtual Ranorex.InputTag LstIb
+            public virtual Ranorex.InputTag SearchField
             {
                 get
                 {
-                    return _lstibInfo.CreateAdapter<Ranorex.InputTag>(true);
+                    return _searchfieldInfo.CreateAdapter<Ranorex.InputTag>(true);
                 }
             }
 
             /// <summary>
-            /// The LstIb item info.
+            /// The SearchField item info.
             /// </summary>
             [RepositoryItemInfo("eec096b6-7342-4584-9f4c-5a727517cf48")]
-            public virtual RepoItemInfo LstIbInfo
+            public virtual RepoItemInfo SearchFieldInfo
             {
                 get
                 {
-                    return _lstibInfo;
+                    return _searchfieldInfo;
                 }
             }
 
             /// <summary>
-            /// The BtnK item.
+            /// The SearchButton item.
             /// </summary>
             [RepositoryItem("99063f57-daf6-452f-bb95-39b56cda22d6")]
-            public virtual Ranorex.InputTag BtnK
+            public virtual Ranorex.InputTag SearchButton
             {
                 get
                 {
-                    return _btnkInfo.CreateAdapter<Ranorex.InputTag>(true);
+                    return _searchbuttonInfo.CreateAdapter<Ranorex.InputTag>(true);
                 }
             }
 
             /// <summary>
-            /// The BtnK item info.
+            /// The SearchButton item info.
             /// </summary>
             [RepositoryItemInfo("99063f57-daf6-452f-bb95-39b56cda22d6")]
-            public virtual RepoItemInfo BtnKInfo
+            public virtual RepoItemInfo SearchButtonInfo
             {
                 get
                 {
-                    return _btnkInfo;
+                    return _searchbuttonInfo;
                 }
             }
 
