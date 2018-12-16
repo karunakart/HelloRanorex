@@ -4,6 +4,7 @@
     <Element value="Hello.rxtst" />
     <Element value="UserCodeCollection1.cs" />
     <Element value="SearchAndValidateKeyword.rxrec" />
+    <Element value="Navigate2url.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
