@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "Hello\Hello.csproj", "{D5CA8CB9-48E6-4C4D-84FD-2C45A13FC56A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadFile", "UploadFile\UploadFile.csproj", "{F481DF27-F57F-43FC-9D97-19A09458878E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -21,9 +19,5 @@ Global
 		{D5CA8CB9-48E6-4C4D-84FD-2C45A13FC56A}.Debug|x86.ActiveCfg = Debug|x86
 		{D5CA8CB9-48E6-4C4D-84FD-2C45A13FC56A}.Release|x86.Build.0 = Release|x86
 		{D5CA8CB9-48E6-4C4D-84FD-2C45A13FC56A}.Release|x86.ActiveCfg = Release|x86
-		{F481DF27-F57F-43FC-9D97-19A09458878E}.Debug|x86.Build.0 = Debug|x86
-		{F481DF27-F57F-43FC-9D97-19A09458878E}.Debug|x86.ActiveCfg = Debug|x86
-		{F481DF27-F57F-43FC-9D97-19A09458878E}.Release|x86.Build.0 = Release|x86
-		{F481DF27-F57F-43FC-9D97-19A09458878E}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal
