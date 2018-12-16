@@ -1,0 +1,17 @@
+﻿<Properties>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Hello.rxtst" />
+    <Element value="UserCodeCollection1.cs" />
+    <Element value="SearchAndValidateKeyword.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Hello.TimeCollection.UpdateInputFile(String ColumnName, String Value)" />
+      <Element value="Hello.TimeCollection.TimeLogMethod()" />
+    </Array>
+  </Properties>
+</Properties>
