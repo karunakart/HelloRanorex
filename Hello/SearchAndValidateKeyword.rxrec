@@ -718,11 +718,11 @@ BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf
 			</helperscreenshot>
 		</mouseitem>
 		<getvaluerecorditem
-		attrname="InnerText"
+		attrname="InnerTexts"
 		enabled="True"
 		optional="False"
 		searchpropertyid="6917dd63-c030-4af4-95f1-250ea8f521fd"
-		varname="ResultStats">
+		varname="">
 			<comment>
 			</comment>
 			<bindings>
@@ -847,7 +847,7 @@ BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf
 	id="15165c6b-844d-4a98-938f-33939f2afb47"
 	name="HelloRepository"
 	relativepath="HelloRepository.rxrep"
-	rxversion="8.1">
+	rxversion="8.2">
 		<codegen
 		classname="HelloRepository"
 		namespace="Hello">

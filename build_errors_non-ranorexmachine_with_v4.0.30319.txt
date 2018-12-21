@@ -1,0 +1,858 @@
+
+D:\Temp>C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe D:\HelloRanorex\Hello.sln
+Microsoft (R) Build Engine version 4.7.3056.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+Build started 12/20/2018 12:36:25 PM.
+Project "D:\HelloRanorex\Hello.sln" on node 1 (default targets).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|x86".
+Project "D:\HelloRanorex\Hello.sln" (1) is building "D:\HelloRanorex\Hello\Hello.csproj" (2) on node 1 (default targets
+).
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblie
+s for framework ".NETFramework,Version=v4.5.2" were not found. To resolve this, install the SDK or Targeting Pack for t
+his framework version or retarget your application to a version of the framework for which you have the SDK or Targetin
+g Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place
+of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend. [D:\HelloR
+anorex\Hello\Hello.csproj]
+ResolveAssemblyReferences:
+  Primary reference "Ranorex.Bootstrapper".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Bootstrapper". Check to make sure the assembly exists on disk. If th
+is reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Bootstrapper", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Bootstrapper" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Bootstrapper.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Bootstrapper.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Bootstrapper.exe", but it didn't exist.
+  Primary reference "Ranorex.Core".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Core". Check to make sure the assembly exists on disk. If this refer
+ence is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Core", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Core" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Core.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Core.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Core.exe", but it didn't exist.
+  Primary reference "Ranorex.Core.Resolver".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Core.Resolver". Check to make sure the assembly exists on disk. If t
+his reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Core.Resolver", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Core.Resolver" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Core.Resolver.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Core.Resolver.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Core.Resolver.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.Cef".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.Cef". Check to make sure the assembly exists on disk. If this
+ reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.Cef", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.Cef" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.Cef.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Cef.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Cef.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.ChromeWeb".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.ChromeWeb". Check to make sure the assembly exists on disk. I
+f this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.ChromeWeb", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.ChromeWeb" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.ChromeWeb.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.ChromeWeb.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.ChromeWeb.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.Delphi".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.Delphi". Check to make sure the assembly exists on disk. If t
+his reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.Delphi", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.Delphi" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.Delphi.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Delphi.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Delphi.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.FirefoxWeb".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.FirefoxWeb". Check to make sure the assembly exists on disk.
+If this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.FirefoxWeb", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.FirefoxWeb" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.FirefoxWeb.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.FirefoxWeb.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.FirefoxWeb.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.Flex".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.Flex". Check to make sure the assembly exists on disk. If thi
+s reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.Flex", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.Flex" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.Flex.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Flex.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Flex.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.Java".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.Java". Check to make sure the assembly exists on disk. If thi
+s reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.Java", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.Java" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.Java.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Java.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Java.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.Mobile".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.Mobile". Check to make sure the assembly exists on disk. If t
+his reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.Mobile", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.Mobile" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.Mobile.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Mobile.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Mobile.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.Msaa".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.Msaa". Check to make sure the assembly exists on disk. If thi
+s reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.Msaa", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.Msaa" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.Msaa.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Msaa.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Msaa.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.Office".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.Office". Check to make sure the assembly exists on disk. If t
+his reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.Office", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.Office" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.Office.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Office.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Office.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.Qt".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.Qt". Check to make sure the assembly exists on disk. If this
+reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.Qt", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.Qt" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.Qt.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Qt.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Qt.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.RawText".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.RawText". Check to make sure the assembly exists on disk. If
+this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.RawText", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.RawText" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.RawText.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.RawText.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.RawText.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.Sap".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.Sap". Check to make sure the assembly exists on disk. If this
+ reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.Sap", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.Sap" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.Sap.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Sap.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Sap.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.Uia".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.Uia". Check to make sure the assembly exists on disk. If this
+ reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.Uia", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.Uia" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.Uia.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Uia.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Uia.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.Web".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.Web". Check to make sure the assembly exists on disk. If this
+ reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.Web", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.Web" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.Web.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Web.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Web.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.WebDriver".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.WebDriver". Check to make sure the assembly exists on disk. I
+f this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.WebDriver", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.WebDriver" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.WebDriver.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.WebDriver.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.WebDriver.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.Win32".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.Win32". Check to make sure the assembly exists on disk. If th
+is reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.Win32", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.Win32" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.Win32.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Win32.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Win32.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.WinForms".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.WinForms". Check to make sure the assembly exists on disk. If
+ this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.WinForms", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.WinForms" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.WinForms.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.WinForms.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.WinForms.exe", but it didn't exist.
+  Primary reference "Ranorex.Plugin.Wpf".
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this
+ reference. Could not locate the assembly "Ranorex.Plugin.Wpf". Check to make sure the assembly exists on disk. If this
+ reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+          For SearchPath "{GAC}".
+          Considered "Ranorex.Plugin.Wpf", which was not found in the GAC.
+          For SearchPath "{RawFileName}".
+          Considered treating "Ranorex.Plugin.Wpf" as a file name, but it didn't exist.
+          For SearchPath "bin\Debug\".
+          Considered "bin\Debug\Ranorex.Plugin.Wpf.winmd", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Wpf.dll", but it didn't exist.
+          Considered "bin\Debug\Ranorex.Plugin.Wpf.exe", but it didn't exist.
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the i
+nput files.
+CoreCompile:
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /checked+ /nowarn:1701,1702 /nostdlib+ /platform:x86
+  /define:DEBUG;TRACE /highentropyva+ /reference:C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll /reference:
+  C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll /reference:C:\W
+  INDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataS
+  etExtensions.dll /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\Syste
+  m.Data.dll /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll /re
+  ference:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll /
+  reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windo
+  ws.Forms.dll /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.X
+  ml.dll /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xm
+  l.Linq.dll /debug+ /debug:Full /optimize- /out:obj\x86\Debug\Hello.exe /subsystemversion:6.00 /target:exe /utf8output
+   AssemblyInfo.cs HelloRepository.cs Program.cs Navigate2url.cs Navigate2url.UserCode.cs SearchAndValidateKeyword.cs S
+  earchAndValidateKeyword.UserCode.cs UserCodeCollection1.cs "C:\Users\dsmtadmin\AppData\Local\Temp\.NETFramework,Versi
+  on=v4.5.2.AssemblyAttributes.cs"
+HelloRepository.cs(14,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a usin
+g directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(15,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a usin
+g directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(16,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a usin
+g directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(17,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a usin
+g directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(27,44): error CS0246: The type or namespace name 'RepoGenBaseFolder' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(109,48): error CS0246: The type or namespace name 'RepoGenBaseFolder' could not be found (are you mi
+ssing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(227,71): error CS0246: The type or namespace name 'RepoGenBaseFolder' could not be found (are you mi
+ssing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Program.cs(17,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using direct
+ive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Program.cs(18,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using direct
+ive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Program.cs(19,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using direct
+ive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Program.cs(20,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using direct
+ive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Navigate2url.cs(18,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using d
+irective or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Navigate2url.cs(19,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using d
+irective or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Navigate2url.cs(20,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using d
+irective or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Navigate2url.cs(21,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using d
+irective or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Navigate2url.cs(30,41): error CS0246: The type or namespace name 'ITestModule' could not be found (are you missing a us
+ing directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Navigate2url.UserCode.cs(18,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing
+a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Navigate2url.UserCode.cs(19,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing
+a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Navigate2url.UserCode.cs(20,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing
+a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Navigate2url.UserCode.cs(21,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing
+a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.cs(18,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.cs(19,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.cs(20,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.cs(21,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.cs(30,53): error CS0246: The type or namespace name 'ITestModule' could not be found (are you
+missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.UserCode.cs(18,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are
+you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.UserCode.cs(19,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are
+you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.UserCode.cs(20,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are
+you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.UserCode.cs(21,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are
+you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+UserCodeCollection1.cs(17,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a
+using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+UserCodeCollection1.cs(18,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a
+using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+UserCodeCollection1.cs(19,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a
+using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(72,24): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missing
+a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(111,13): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missing
+ a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(112,13): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missing
+ a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(113,13): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missing
+ a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(118,36): error CS0246: The type or namespace name 'RepoGenBaseFolder' could not be found (are you mi
+ssing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(130,28): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a us
+ing directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(142,28): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missing
+ a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(154,28): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a us
+ing directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(166,28): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missing
+ a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(178,28): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a us
+ing directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(190,28): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missing
+ a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(202,28): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a us
+ing directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(214,28): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missing
+ a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(229,13): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missing
+ a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(230,13): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missing
+ a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(235,59): error CS0246: The type or namespace name 'RepoGenBaseFolder' could not be found (are you mi
+ssing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(246,28): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a us
+ing directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(258,28): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missing
+ a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(270,28): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a us
+ing directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(282,28): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missing
+ a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(294,28): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a us
+ing directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(306,28): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missing
+ a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(36,10): error CS0246: The type or namespace name 'RepositoryFolder' could not be found (are you miss
+ing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(36,10): error CS0246: The type or namespace name 'RepositoryFolderAttribute' could not be found (are
+ you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(59,10): error CS0246: The type or namespace name 'TestVariable' could not be found (are you missing
+a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(59,10): error CS0246: The type or namespace name 'TestVariableAttribute' could not be found (are you
+ missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(71,10): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you mi
+ssing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(71,10): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found (a
+re you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(83,10): error CS0246: The type or namespace name 'RepositoryFolder' could not be found (are you miss
+ing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(83,10): error CS0246: The type or namespace name 'RepositoryFolderAttribute' could not be found (are
+ you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(92,10): error CS0246: The type or namespace name 'RepositoryFolder' could not be found (are you miss
+ing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(92,10): error CS0246: The type or namespace name 'RepositoryFolderAttribute' could not be found (are
+ you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(26,6): error CS0246: The type or namespace name 'RepositoryFolder' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(26,6): error CS0246: The type or namespace name 'RepositoryFolderAttribute' could not be found (are
+you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(129,14): error CS0246: The type or namespace name 'RepositoryItem' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(129,14): error CS0246: The type or namespace name 'RepositoryItemAttribute' could not be found (are
+you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(141,14): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you m
+issing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(141,14): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found (
+are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(153,14): error CS0246: The type or namespace name 'RepositoryItem' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(153,14): error CS0246: The type or namespace name 'RepositoryItemAttribute' could not be found (are
+you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(165,14): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you m
+issing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(165,14): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found (
+are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(177,14): error CS0246: The type or namespace name 'RepositoryItem' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(177,14): error CS0246: The type or namespace name 'RepositoryItemAttribute' could not be found (are
+you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(189,14): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you m
+issing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(189,14): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found (
+are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(201,14): error CS0246: The type or namespace name 'RepositoryItem' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(201,14): error CS0246: The type or namespace name 'RepositoryItemAttribute' could not be found (are
+you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(213,14): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you m
+issing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(213,14): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found (
+are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(108,10): error CS0246: The type or namespace name 'RepositoryFolder' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(108,10): error CS0246: The type or namespace name 'RepositoryFolderAttribute' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(245,14): error CS0246: The type or namespace name 'RepositoryItem' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(245,14): error CS0246: The type or namespace name 'RepositoryItemAttribute' could not be found (are
+you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(257,14): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you m
+issing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(257,14): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found (
+are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(269,14): error CS0246: The type or namespace name 'RepositoryItem' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(269,14): error CS0246: The type or namespace name 'RepositoryItemAttribute' could not be found (are
+you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(281,14): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you m
+issing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(281,14): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found (
+are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(293,14): error CS0246: The type or namespace name 'RepositoryItem' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(293,14): error CS0246: The type or namespace name 'RepositoryItemAttribute' could not be found (are
+you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(305,14): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you m
+issing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(305,14): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found (
+are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(226,10): error CS0246: The type or namespace name 'RepositoryFolder' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+HelloRepository.cs(226,10): error CS0246: The type or namespace name 'RepositoryFolderAttribute' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Navigate2url.cs(60,10): error CS0246: The type or namespace name 'TestVariable' could not be found (are you missing a u
+sing directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Navigate2url.cs(60,10): error CS0246: The type or namespace name 'TestVariableAttribute' could not be found (are you mi
+ssing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Navigate2url.cs(29,6): error CS0246: The type or namespace name 'TestModule' could not be found (are you missing a usin
+g directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Navigate2url.cs(29,6): error CS0246: The type or namespace name 'TestModuleAttribute' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.cs(64,10): error CS0246: The type or namespace name 'TestVariable' could not be found (are you
+ missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.cs(64,10): error CS0246: The type or namespace name 'TestVariableAttribute' could not be found
+ (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.cs(76,10): error CS0246: The type or namespace name 'TestVariable' could not be found (are you
+ missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.cs(76,10): error CS0246: The type or namespace name 'TestVariableAttribute' could not be found
+ (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.cs(86,10): error CS0246: The type or namespace name 'TestVariable' could not be found (are you
+ missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.cs(86,10): error CS0246: The type or namespace name 'TestVariableAttribute' could not be found
+ (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.cs(29,6): error CS0246: The type or namespace name 'TestModule' could not be found (are you mi
+ssing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+SearchAndValidateKeyword.cs(29,6): error CS0246: The type or namespace name 'TestModuleAttribute' could not be found (a
+re you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+UserCodeCollection1.cs(35,7): error CS0246: The type or namespace name 'UserCodeMethod' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+UserCodeCollection1.cs(35,7): error CS0246: The type or namespace name 'UserCodeMethodAttribute' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+UserCodeCollection1.cs(45,8): error CS0246: The type or namespace name 'UserCodeMethod' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+UserCodeCollection1.cs(45,8): error CS0246: The type or namespace name 'UserCodeMethodAttribute' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+UserCodeCollection1.cs(96,11): error CS0246: The type or namespace name 'UserCodeMethod' could not be found (are you mi
+ssing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+UserCodeCollection1.cs(96,11): error CS0246: The type or namespace name 'UserCodeMethodAttribute' could not be found (a
+re you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+UserCodeCollection1.cs(26,6): error CS0246: The type or namespace name 'UserCodeCollection' could not be found (are you
+ missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+UserCodeCollection1.cs(26,6): error CS0246: The type or namespace name 'UserCodeCollectionAttribute' could not be found
+ (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+Done Building Project "D:\HelloRanorex\Hello\Hello.csproj" (default targets) -- FAILED.
+
+Done Building Project "D:\HelloRanorex\Hello.sln" (default targets) -- FAILED.
+
+
+Build FAILED.
+
+"D:\HelloRanorex\Hello.sln" (default target) (1) ->
+"D:\HelloRanorex\Hello\Hello.csproj" (default target) (2) ->
+(GetReferenceAssemblyPaths target) ->
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assembl
+ies for framework ".NETFramework,Version=v4.5.2" were not found. To resolve this, install the SDK or Targeting Pack for
+ this framework version or retarget your application to a version of the framework for which you have the SDK or Target
+ing Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in plac
+e of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend. [D:\Hell
+oRanorex\Hello\Hello.csproj]
+
+
+"D:\HelloRanorex\Hello.sln" (default target) (1) ->
+"D:\HelloRanorex\Hello\Hello.csproj" (default target) (2) ->
+(ResolveAssemblyReferences target) ->
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Bootstrapper". Check to make sure the assembly exists on disk. If
+this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Core". Check to make sure the assembly exists on disk. If this ref
+erence is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Core.Resolver". Check to make sure the assembly exists on disk. If
+ this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.Cef". Check to make sure the assembly exists on disk. If th
+is reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.ChromeWeb". Check to make sure the assembly exists on disk.
+ If this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.Delphi". Check to make sure the assembly exists on disk. If
+ this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.FirefoxWeb". Check to make sure the assembly exists on disk
+. If this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.Flex". Check to make sure the assembly exists on disk. If t
+his reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.Java". Check to make sure the assembly exists on disk. If t
+his reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.Mobile". Check to make sure the assembly exists on disk. If
+ this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.Msaa". Check to make sure the assembly exists on disk. If t
+his reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.Office". Check to make sure the assembly exists on disk. If
+ this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.Qt". Check to make sure the assembly exists on disk. If thi
+s reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.RawText". Check to make sure the assembly exists on disk. I
+f this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.Sap". Check to make sure the assembly exists on disk. If th
+is reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.Uia". Check to make sure the assembly exists on disk. If th
+is reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.Web". Check to make sure the assembly exists on disk. If th
+is reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.WebDriver". Check to make sure the assembly exists on disk.
+ If this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.Win32". Check to make sure the assembly exists on disk. If
+this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.WinForms". Check to make sure the assembly exists on disk.
+If this reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve th
+is reference. Could not locate the assembly "Ranorex.Plugin.Wpf". Check to make sure the assembly exists on disk. If th
+is reference is required by your code, you may get compilation errors. [D:\HelloRanorex\Hello\Hello.csproj]
+
+
+"D:\HelloRanorex\Hello.sln" (default target) (1) ->
+"D:\HelloRanorex\Hello\Hello.csproj" (default target) (2) ->
+(CoreCompile target) ->
+  HelloRepository.cs(14,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a us
+ing directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(15,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a us
+ing directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(16,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a us
+ing directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(17,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a us
+ing directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(27,44): error CS0246: The type or namespace name 'RepoGenBaseFolder' could not be found (are you m
+issing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(109,48): error CS0246: The type or namespace name 'RepoGenBaseFolder' could not be found (are you
+missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(227,71): error CS0246: The type or namespace name 'RepoGenBaseFolder' could not be found (are you
+missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Program.cs(17,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using dire
+ctive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Program.cs(18,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using dire
+ctive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Program.cs(19,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using dire
+ctive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Program.cs(20,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using dire
+ctive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Navigate2url.cs(18,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using
+ directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Navigate2url.cs(19,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using
+ directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Navigate2url.cs(20,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using
+ directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Navigate2url.cs(21,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a using
+ directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Navigate2url.cs(30,41): error CS0246: The type or namespace name 'ITestModule' could not be found (are you missing a
+using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Navigate2url.UserCode.cs(18,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missin
+g a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Navigate2url.UserCode.cs(19,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missin
+g a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Navigate2url.UserCode.cs(20,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missin
+g a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Navigate2url.UserCode.cs(21,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missin
+g a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.cs(18,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.cs(19,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.cs(20,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.cs(21,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.cs(30,53): error CS0246: The type or namespace name 'ITestModule' could not be found (are yo
+u missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.UserCode.cs(18,7): error CS0246: The type or namespace name 'Ranorex' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.UserCode.cs(19,7): error CS0246: The type or namespace name 'Ranorex' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.UserCode.cs(20,7): error CS0246: The type or namespace name 'Ranorex' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.UserCode.cs(21,7): error CS0246: The type or namespace name 'Ranorex' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  UserCodeCollection1.cs(17,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing
+a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  UserCodeCollection1.cs(18,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing
+a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  UserCodeCollection1.cs(19,7): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing
+a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(72,24): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missin
+g a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(111,13): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(112,13): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(113,13): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(118,36): error CS0246: The type or namespace name 'RepoGenBaseFolder' could not be found (are you
+missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(130,28): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a
+using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(142,28): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(154,28): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a
+using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(166,28): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(178,28): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a
+using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(190,28): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(202,28): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a
+using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(214,28): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(229,13): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(230,13): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(235,59): error CS0246: The type or namespace name 'RepoGenBaseFolder' could not be found (are you
+missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(246,28): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a
+using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(258,28): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(270,28): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a
+using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(282,28): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(294,28): error CS0246: The type or namespace name 'Ranorex' could not be found (are you missing a
+using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(306,28): error CS0246: The type or namespace name 'RepoItemInfo' could not be found (are you missi
+ng a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(36,10): error CS0246: The type or namespace name 'RepositoryFolder' could not be found (are you mi
+ssing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(36,10): error CS0246: The type or namespace name 'RepositoryFolderAttribute' could not be found (a
+re you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(59,10): error CS0246: The type or namespace name 'TestVariable' could not be found (are you missin
+g a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(59,10): error CS0246: The type or namespace name 'TestVariableAttribute' could not be found (are y
+ou missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(71,10): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you
+missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(71,10): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found
+(are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(83,10): error CS0246: The type or namespace name 'RepositoryFolder' could not be found (are you mi
+ssing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(83,10): error CS0246: The type or namespace name 'RepositoryFolderAttribute' could not be found (a
+re you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(92,10): error CS0246: The type or namespace name 'RepositoryFolder' could not be found (are you mi
+ssing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(92,10): error CS0246: The type or namespace name 'RepositoryFolderAttribute' could not be found (a
+re you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(26,6): error CS0246: The type or namespace name 'RepositoryFolder' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(26,6): error CS0246: The type or namespace name 'RepositoryFolderAttribute' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(129,14): error CS0246: The type or namespace name 'RepositoryItem' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(129,14): error CS0246: The type or namespace name 'RepositoryItemAttribute' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(141,14): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you
+ missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(141,14): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found
+ (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(153,14): error CS0246: The type or namespace name 'RepositoryItem' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(153,14): error CS0246: The type or namespace name 'RepositoryItemAttribute' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(165,14): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you
+ missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(165,14): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found
+ (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(177,14): error CS0246: The type or namespace name 'RepositoryItem' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(177,14): error CS0246: The type or namespace name 'RepositoryItemAttribute' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(189,14): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you
+ missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(189,14): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found
+ (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(201,14): error CS0246: The type or namespace name 'RepositoryItem' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(201,14): error CS0246: The type or namespace name 'RepositoryItemAttribute' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(213,14): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you
+ missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(213,14): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found
+ (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(108,10): error CS0246: The type or namespace name 'RepositoryFolder' could not be found (are you m
+issing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(108,10): error CS0246: The type or namespace name 'RepositoryFolderAttribute' could not be found (
+are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(245,14): error CS0246: The type or namespace name 'RepositoryItem' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(245,14): error CS0246: The type or namespace name 'RepositoryItemAttribute' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(257,14): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you
+ missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(257,14): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found
+ (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(269,14): error CS0246: The type or namespace name 'RepositoryItem' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(269,14): error CS0246: The type or namespace name 'RepositoryItemAttribute' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(281,14): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you
+ missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(281,14): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found
+ (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(293,14): error CS0246: The type or namespace name 'RepositoryItem' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(293,14): error CS0246: The type or namespace name 'RepositoryItemAttribute' could not be found (ar
+e you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(305,14): error CS0246: The type or namespace name 'RepositoryItemInfo' could not be found (are you
+ missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(305,14): error CS0246: The type or namespace name 'RepositoryItemInfoAttribute' could not be found
+ (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(226,10): error CS0246: The type or namespace name 'RepositoryFolder' could not be found (are you m
+issing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  HelloRepository.cs(226,10): error CS0246: The type or namespace name 'RepositoryFolderAttribute' could not be found (
+are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Navigate2url.cs(60,10): error CS0246: The type or namespace name 'TestVariable' could not be found (are you missing a
+ using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Navigate2url.cs(60,10): error CS0246: The type or namespace name 'TestVariableAttribute' could not be found (are you
+missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Navigate2url.cs(29,6): error CS0246: The type or namespace name 'TestModule' could not be found (are you missing a us
+ing directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  Navigate2url.cs(29,6): error CS0246: The type or namespace name 'TestModuleAttribute' could not be found (are you mis
+sing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.cs(64,10): error CS0246: The type or namespace name 'TestVariable' could not be found (are y
+ou missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.cs(64,10): error CS0246: The type or namespace name 'TestVariableAttribute' could not be fou
+nd (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.cs(76,10): error CS0246: The type or namespace name 'TestVariable' could not be found (are y
+ou missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.cs(76,10): error CS0246: The type or namespace name 'TestVariableAttribute' could not be fou
+nd (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.cs(86,10): error CS0246: The type or namespace name 'TestVariable' could not be found (are y
+ou missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.cs(86,10): error CS0246: The type or namespace name 'TestVariableAttribute' could not be fou
+nd (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.cs(29,6): error CS0246: The type or namespace name 'TestModule' could not be found (are you
+missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  SearchAndValidateKeyword.cs(29,6): error CS0246: The type or namespace name 'TestModuleAttribute' could not be found
+(are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  UserCodeCollection1.cs(35,7): error CS0246: The type or namespace name 'UserCodeMethod' could not be found (are you m
+issing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  UserCodeCollection1.cs(35,7): error CS0246: The type or namespace name 'UserCodeMethodAttribute' could not be found (
+are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  UserCodeCollection1.cs(45,8): error CS0246: The type or namespace name 'UserCodeMethod' could not be found (are you m
+issing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  UserCodeCollection1.cs(45,8): error CS0246: The type or namespace name 'UserCodeMethodAttribute' could not be found (
+are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  UserCodeCollection1.cs(96,11): error CS0246: The type or namespace name 'UserCodeMethod' could not be found (are you
+missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  UserCodeCollection1.cs(96,11): error CS0246: The type or namespace name 'UserCodeMethodAttribute' could not be found
+(are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  UserCodeCollection1.cs(26,6): error CS0246: The type or namespace name 'UserCodeCollection' could not be found (are y
+ou missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+  UserCodeCollection1.cs(26,6): error CS0246: The type or namespace name 'UserCodeCollectionAttribute' could not be fou
+nd (are you missing a using directive or an assembly reference?) [D:\HelloRanorex\Hello\Hello.csproj]
+
+    22 Warning(s)
+    118 Error(s)
+
+Time Elapsed 00:00:01.49
+
+D:\Temp>
