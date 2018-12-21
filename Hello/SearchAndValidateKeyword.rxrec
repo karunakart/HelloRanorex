@@ -718,11 +718,11 @@ BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf
 			</helperscreenshot>
 		</mouseitem>
 		<getvaluerecorditem
-		attrname="InnerTexts"
+		attrname="InnerText"
 		enabled="True"
 		optional="False"
 		searchpropertyid="6917dd63-c030-4af4-95f1-250ea8f521fd"
-		varname="">
+		varname="ResultStats">
 			<comment>
 			</comment>
 			<bindings>
