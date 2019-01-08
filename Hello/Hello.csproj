@@ -150,6 +150,18 @@
       <UserCode>true</UserCode>
       <id>c31e53ac-4f30-43cc-9330-bbc7d1188abc</id>
     </Compile>
+    <Compile Include="SearchNewKeywordDataTransferBetweenRecordingModules.cs">
+      <BoundTo>73caf6a3-1651-4e78-8d77-3c515ef09767</BoundTo>
+      <DependentUpon>SearchNewKeywordDataTransferBetweenRecordingModules.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dff2dc26-07ee-4b41-9dda-63136f8cf5f0</id>
+    </Compile>
+    <Compile Include="SearchNewKeywordDataTransferBetweenRecordingModules.UserCode.cs">
+      <BoundTo>73caf6a3-1651-4e78-8d77-3c515ef09767</BoundTo>
+      <DependentUpon>SearchNewKeywordDataTransferBetweenRecordingModules.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e649f859-68d6-4d54-bbff-bc0afcdc87e8</id>
+    </Compile>
     <Compile Include="UserCodeCollection1.cs">
       <id>da298227-8f61-4c4d-a38b-ef667def9502</id>
     </Compile>
@@ -178,6 +190,11 @@
       <BoundTo>37313199-3eae-4529-aee7-cc0dce11c457</BoundTo>
       <id>07e4e5ae-ec65-45a7-b2ce-fea5369a1d24</id>
       <recordtableid>a1e8603e-0403-4c6c-8a1c-27eac8d81b7f</recordtableid>
+    </None>
+    <None Include="SearchNewKeywordDataTransferBetweenRecordingModules.rxrec">
+      <BoundTo>37313199-3eae-4529-aee7-cc0dce11c457</BoundTo>
+      <id>73caf6a3-1651-4e78-8d77-3c515ef09767</id>
+      <recordtableid>c8dc7deb-dd97-4793-a642-df8b5487ed3d</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

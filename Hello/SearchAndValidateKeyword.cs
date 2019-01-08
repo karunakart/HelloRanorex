@@ -41,9 +41,11 @@ namespace Hello
         /// </summary>
         public SearchAndValidateKeyword()
         {
-            sk = "hello";
-            searchedvalues = "";
-            ResultStats = "";
+            sk1 = "";
+            results1 = "";
+            results2 = "";
+            sk2 = "test";
+            searchResultAsKeyword = "";
         }
 
         /// <summary>
@@ -56,38 +58,62 @@ namespace Hello
 
 #region Variables
 
-        string _searchedvalues;
+        string _results1;
 
         /// <summary>
-        /// Gets or sets the value of variable searchedvalues.
-        /// </summary>
-        [TestVariable("30619e37-d49e-4fc4-ac21-054cca1c5130")]
-        public string searchedvalues
-        {
-            get { return _searchedvalues; }
-            set { _searchedvalues = value; }
-        }
-
-        string _ResultStats;
-
-        /// <summary>
-        /// Gets or sets the value of variable ResultStats.
+        /// Gets or sets the value of variable results1.
         /// </summary>
         [TestVariable("47d22ecd-c4d0-4b3a-8536-c7a6a5b09598")]
-        public string ResultStats
+        public string results1
         {
-            get { return _ResultStats; }
-            set { _ResultStats = value; }
+            get { return _results1; }
+            set { _results1 = value; }
+        }
+
+        string _results2;
+
+        /// <summary>
+        /// Gets or sets the value of variable results2.
+        /// </summary>
+        [TestVariable("895aa76d-e3b2-4524-baba-867b6147b32f")]
+        public string results2
+        {
+            get { return _results2; }
+            set { _results2 = value; }
+        }
+
+        string _sk2;
+
+        /// <summary>
+        /// Gets or sets the value of variable sk2.
+        /// </summary>
+        [TestVariable("3589d776-9a50-4d8b-a920-a6e17e119dfc")]
+        public string sk2
+        {
+            get { return _sk2; }
+            set { _sk2 = value; }
+        }
+
+        string _searchResultAsKeyword;
+
+        /// <summary>
+        /// Gets or sets the value of variable searchResultAsKeyword.
+        /// </summary>
+        [TestVariable("6a4ee642-3e52-44c1-993a-45cbca2854bf")]
+        public string searchResultAsKeyword
+        {
+            get { return _searchResultAsKeyword; }
+            set { _searchResultAsKeyword = value; }
         }
 
         /// <summary>
-        /// Gets or sets the value of variable sk.
+        /// Gets or sets the value of variable sk1.
         /// </summary>
         [TestVariable("835187d5-8588-4569-ac93-5c7a1fda6942")]
-        public string sk
+        public string sk1
         {
-            get { return repo.sk; }
-            set { repo.sk = value; }
+            get { return repo.sk1; }
+            set { repo.sk1 = value; }
         }
 
 #endregion
@@ -120,8 +146,8 @@ namespace Hello
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$sk' with focus on 'Google.SearchField'.", repo.Google.SearchFieldInfo, new RecordItemIndex(1));
-            repo.Google.SearchField.PressKeys(sk);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$sk1' with focus on 'Google.SearchField'.", repo.Google.SearchFieldInfo, new RecordItemIndex(1));
+            repo.Google.SearchField.PressKeys(sk1);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}' with focus on 'Google.SearchField'.", repo.Google.SearchFieldInfo, new RecordItemIndex(2));
@@ -132,16 +158,59 @@ namespace Hello
             repo.Google.SearchButton.Click("93;23");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'Google.ResultStats' and assigning its value to variable 'ResultStats'.", repo.Google.ResultStatsInfo, new RecordItemIndex(4));
-            ResultStats = repo.Google.ResultStats.Element.GetAttributeValueText("InnerText");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'Google.ResultStats' and assigning its value to variable 'results1'.", repo.Google.ResultStatsInfo, new RecordItemIndex(4));
+            results1 = repo.Google.ResultStats.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", ResultStats, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "User", results1, new RecordItemIndex(5));
             
-            TimeCollection.UpdateInputFile("results", ResultStats);
+            TimeCollection.UpdateInputFile("Results1", results1);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", searchedvalues, new RecordItemIndex(7));
+            //Report.Log(ReportLevel.Info, "Invoke action", "Invoking Close() on item 'CurrentPage'.", repo.CurrentPage.SelfInfo, new RecordItemIndex(7));
+            //repo.CurrentPage.Self.Close();
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Website", "Opening web site 'http://google.com' with browser 'chrome' in normal mode.", new RecordItemIndex(8));
+            //Host.Current.OpenBrowser("http://google.com", "chrome", "", false, false, false, false, false);
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Google.SearchField' at Center.", repo.Google.SearchFieldInfo, new RecordItemIndex(9));
+            //repo.Google.SearchField.Click();
+            //Delay.Milliseconds(200);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$sk2' with focus on 'Google.SearchField'.", repo.Google.SearchFieldInfo, new RecordItemIndex(10));
+            //repo.Google.SearchField.PressKeys(sk2);
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Tab}' with focus on 'Google.SearchField'.", repo.Google.SearchFieldInfo, new RecordItemIndex(11));
+            //repo.Google.SearchField.PressKeys("{Tab}");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Google.SearchButton' at 93;23.", repo.Google.SearchButtonInfo, new RecordItemIndex(12));
+            //repo.Google.SearchButton.Click("93;23");
+            //Delay.Milliseconds(200);
+            
+            //Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'Google.ResultStats' and assigning its value to variable 'results2'.", repo.Google.ResultStatsInfo, new RecordItemIndex(13));
+            //results2 = repo.Google.ResultStats.Element.GetAttributeValueText("InnerText");
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "User", results2, new RecordItemIndex(14));
+            
+            //TimeCollection.UpdateInputFile("Results2", results2);
+            //Delay.Milliseconds(0);
+            
+            searchResultAsKeyword = AssignNewkeywordToSearch();
+            Delay.Milliseconds(0);
+            
+            TimeCollection.UpdateInputFile("SRK", searchResultAsKeyword);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "User", searchResultAsKeyword, new RecordItemIndex(18));
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Close() on item 'CurrentPage'.", repo.CurrentPage.SelfInfo, new RecordItemIndex(19));
+            repo.CurrentPage.Self.Close();
+            Delay.Milliseconds(0);
             
         }
 

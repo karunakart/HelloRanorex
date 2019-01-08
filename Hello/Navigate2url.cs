@@ -54,14 +54,16 @@ namespace Hello
 
 #region Variables
 
+        string _sk;
+
         /// <summary>
         /// Gets or sets the value of variable sk.
         /// </summary>
         [TestVariable("da4b9e24-eb09-4da3-a2e0-148f6022e7dc")]
         public string sk
         {
-            get { return repo.sk; }
-            set { repo.sk = value; }
+            get { return _sk; }
+            set { _sk = value; }
         }
 
 #endregion

@@ -29,6 +29,7 @@ namespace Hello
         static HelloRepository instance = new HelloRepository();
         HelloRepositoryFolders.GoogleAppFolder _google;
         HelloRepositoryFolders.HelloGoogleSearchGoogleChromeAppFolder _hellogooglesearchgooglechrome;
+        HelloRepositoryFolders.CurrentPageAppFolder _currentpage;
 
         /// <summary>
         /// Gets the singleton class instance representing the HelloRepository element repository.
@@ -47,20 +48,21 @@ namespace Hello
         {
             _google = new HelloRepositoryFolders.GoogleAppFolder(this);
             _hellogooglesearchgooglechrome = new HelloRepositoryFolders.HelloGoogleSearchGoogleChromeAppFolder(this);
+            _currentpage = new HelloRepositoryFolders.CurrentPageAppFolder(this);
         }
 
 #region Variables
 
-        string _sk = "";
+        string _sk1 = "";
 
         /// <summary>
-        /// Gets or sets the value of variable sk.
+        /// Gets or sets the value of variable sk1.
         /// </summary>
         [TestVariable("7a28c22e-e685-4e4e-9f67-d3640ffd14ea")]
-        public string sk
+        public string sk1
         {
-            get { return _sk; }
-            set { _sk = value; }
+            get { return _sk1; }
+            set { _sk1 = value; }
         }
 
 #endregion
@@ -93,6 +95,15 @@ namespace Hello
         public virtual HelloRepositoryFolders.HelloGoogleSearchGoogleChromeAppFolder HelloGoogleSearchGoogleChrome
         {
             get { return _hellogooglesearchgooglechrome; }
+        }
+
+        /// <summary>
+        /// The CurrentPage folder.
+        /// </summary>
+        [RepositoryFolder("122f2385-7a6f-4bdf-a78c-d8e5de11beab")]
+        public virtual HelloRepositoryFolders.CurrentPageAppFolder CurrentPage
+        {
+            get { return _currentpage; }
         }
     }
 
@@ -308,6 +319,46 @@ namespace Hello
                 get
                 {
                     return _hellogooglesearchgooglechromeInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The CurrentPageAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("122f2385-7a6f-4bdf-a78c-d8e5de11beab")]
+        public partial class CurrentPageAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new CurrentPage  folder.
+            /// </summary>
+            public CurrentPageAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("CurrentPage", "/dom[@visible='True']", parentFolder, 15000, null, false, "122f2385-7a6f-4bdf-a78c-d8e5de11beab", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("122f2385-7a6f-4bdf-a78c-d8e5de11beab")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("122f2385-7a6f-4bdf-a78c-d8e5de11beab")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
                 }
             }
         }

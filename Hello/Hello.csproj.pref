@@ -1,17 +1,22 @@
 ﻿<Properties>
+  <Array name="active">
+    <Element value="UserCodeCollection1.cs" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="Hello.rxtst" />
     <Element value="UserCodeCollection1.cs" />
+    <Element value="SearchNewKeywordDataTransferBetweenRecordingModules.rxrec" />
     <Element value="SearchAndValidateKeyword.rxrec" />
-    <Element value="Navigate2url.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="Hello.SearchAndValidateKeyword.AssignNewkeywordToSearch()" />
       <Element value="Hello.TimeCollection.UpdateInputFile(String ColumnName, String Value)" />
+      <Element value="Hello.SearchAndValidateKeyword.AssignNewkeywordToSearch()" />
       <Element value="Hello.TimeCollection.TimeLogMethod()" />
     </Array>
   </Properties>

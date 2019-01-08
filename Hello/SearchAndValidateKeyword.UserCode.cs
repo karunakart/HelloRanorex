@@ -33,5 +33,14 @@ namespace Hello
             // Your recording specific initialization code goes here.
         }
 
+        public string AssignNewkeywordToSearch()
+        {
+         
+        	return results1;
+        	//return resultsSearch;
+        
+        	
+        }
+
     }
 }

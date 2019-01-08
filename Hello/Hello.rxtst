@@ -4,6 +4,20 @@ rxversion="8.2">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="32d23030-512f-4cc3-bae6-47ed0438f9c7"
+			name="SearchNewKeywordDataTransferBetweenRecordingModules"
+			ref="c8dc7deb-dd97-4793-a642-df8b5487ed3d"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="SRK_Global"
+					datasourceid="d943faac-fa39-4ede-901b-6705b3d00b46"
+					variableid="cbae47b4-a60d-483b-959d-d0401d91ebb6"
+					variablename="searchResultsAsKeyword">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="3d1660c3-9944-47af-b680-78b1acab047e"
 			name="Navigate2url"
 			ref="c6ed12d1-6d5c-4426-a2df-2f0a96bd8fa4"
@@ -24,22 +38,34 @@ rxversion="8.2">
 			type="Recording">
 				<databinding>
 					<var
-					dataname="results"
-					datasourceid="a749a7a5-6401-4052-8d88-88727aef2287"
-					variableid="47d22ecd-c4d0-4b3a-8536-c7a6a5b09598"
-					variablename="ResultStats">
+					dataname="SRK_Global"
+					datasourceid="d943faac-fa39-4ede-901b-6705b3d00b46"
+					variableid="6a4ee642-3e52-44c1-993a-45cbca2854bf"
+					variablename="searchResultAsKeyword">
 					</var>
 					<var
-					dataname="searchfor"
+					dataname="SK1"
 					datasourceid="a749a7a5-6401-4052-8d88-88727aef2287"
 					variableid="835187d5-8588-4569-ac93-5c7a1fda6942"
-					variablename="sk">
+					variablename="sk1">
 					</var>
 					<var
-					dataname="searched"
+					dataname="Results1"
 					datasourceid="a749a7a5-6401-4052-8d88-88727aef2287"
-					variableid="30619e37-d49e-4fc4-ac21-054cca1c5130"
-					variablename="searchedvalues">
+					variableid="47d22ecd-c4d0-4b3a-8536-c7a6a5b09598"
+					variablename="results1">
+					</var>
+					<var
+					dataname="Results2"
+					datasourceid="a749a7a5-6401-4052-8d88-88727aef2287"
+					variableid="895aa76d-e3b2-4524-baba-867b6147b32f"
+					variablename="results2">
+					</var>
+					<var
+					dataname="SK2"
+					datasourceid="a749a7a5-6401-4052-8d88-88727aef2287"
+					variableid="3589d776-9a50-4d8b-a920-a6e17e119dfc"
+					variablename="sk2">
 					</var>
 				</databinding>
 			</testmodule>
@@ -61,6 +87,12 @@ rxversion="8.2">
 			id="d943faac-fa39-4ede-901b-6705b3d00b46"
 			name="Hello"
 			reportlevel="Info;20">
+				<parameters>
+					<param
+					name="SRK_Global"
+					value="">
+					</param>
+				</parameters>
 			</testcase>
 		</flatlistofchildren>
 		<childhierarchy>
@@ -81,12 +113,49 @@ rxversion="8.2">
 						id="7a9d3251-3f84-4d4f-8da7-b5f11206506c"
 						name="SearchAndValidateKeyword">
 						</testmodule>
+						<testmodule
+						id="32d23030-512f-4cc3-bae6-47ed0438f9c7"
+						name="SearchNewKeywordDataTransferBetweenRecordingModules">
+						</testmodule>
 					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
 	</testsuiteentryhierarchy>
 	<datasources>
+		<DataSource
+		id="fef4eb7c-1c82-4e0b-9414-597a6f681488"
+		includefile="Unchecked"
+		lastknownrowcount="1"
+		name="doublecolumncsv"
+		type="Ranorex.Core.Data.CsvDataConnector"
+		withheaders="True">
+			<lastknowncolumns>
+				<column>
+					SK2
+				</column>
+				<column>
+					Results2
+				</column>
+				<column>
+					SRK
+				</column>
+				<column>
+					Results1
+				</column>
+				<column>
+					SK1
+				</column>
+				<column>
+					SRK_Results
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<file>
+				D:\Learning\Ranorex\HelloRanorex\Hello\hellodoublecolumn.csv
+			</file>
+		</DataSource>
 		<DataSource
 		id="a749a7a5-6401-4052-8d88-88727aef2287"
 		includefile="Unchecked"
@@ -96,19 +165,28 @@ rxversion="8.2">
 		withheaders="True">
 			<lastknowncolumns>
 				<column>
-					results
+					SK2
 				</column>
 				<column>
-					searchfor
+					Results2
 				</column>
 				<column>
-					searched
+					SRK
+				</column>
+				<column>
+					Results1
+				</column>
+				<column>
+					SK1
+				</column>
+				<column>
+					SRK_Results
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
 			<file>
-				D:\Learning\Ranorex\HelloConnectGit\hellocsv.csv
+				hellocsv.csv
 			</file>
 		</DataSource>
 	</datasources>

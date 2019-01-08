@@ -48,21 +48,22 @@ namespace Hello
 
             
             String tc = TestSuite.CurrentTestContainer.DataContext.Source.Connector.Name.ToString();
-            //var source = ;  
-//            tc.DataContext.Source=source;  
-//            tc.DataContext.Source.Load();
+            Report.Info("Current testcase:" + tc);
             Ranorex.Core.Data.DataCache myConn = DataSources.Get(tc);  
             myConn.Load();
             
             int row1 = TestSuite.CurrentTestContainer.DataContext.CurrentRowIndex;
-            //var colheader= new  DataConnectorBindingInfo("ApplicaitonNumber",tc.Id, tc.DataContext);
             var colnames =     TestSuite.Current.CurrentTestContainer.DataContext.AvailableDataColumnNames;
+            Report.Info("noOfColumn in Datasheet:" + colnames.Count);
            int colcount = colnames.Count;
            int columnindex = 0;
            for (int i = 0; i<colcount; i++)
            {
+           		Report.Info("ColumnName in Datasheet:" +colnames[i].FullName);
+           	
                if(colnames[i].FullName ==ColumnName)
                {
+               	
                    columnindex = i;
                    break;
                }
@@ -71,23 +72,16 @@ namespace Hello
                    return ;
                }
            }
-             //int index =  colnames.IndexOf("ApplicationNumber");
-           
-           //int colindex = IndexOf(colnames,"ApplicationNumber");
+
            
             Ranorex.Core.Data.RowCollection propTableRowsCSV = myConn.Rows;  
+            Report.Info("noOfRows in Datasheet:" + propTableRowsCSV.Count);
               
-            //Set the first column value for each row to "new value"  
-        //        foreach (var row in propTableRowsCSV)  
-            {  
-                      
-            propTableRowsCSV[row1-1].Values[columnindex] = Value;
-//            propTableRowsCSV[34].Values[0] = "20";
-//            propTableRowsCSV[35].Values[0] = "30";
-//            propTableRowsCSV[35].Values[1] = "30";
 
-//int z = myConn.Columns.IndexOf("ApplicaitonNumber");
-//string CellValue = Dataconn.Rows[1].Values[z];
+            {  
+            	Report.Info("row " + row1 + " and column " + columnindex+ " in Datasheet");
+            	//propTableRowsCSV[row1-1].Values[columnindex] = Value;
+
             }  
               
             myConn.Store();
@@ -98,6 +92,15 @@ namespace Hello
         {
 			return TestSuite.WorkingDirectory.ToString(); 
         }
+       
+        
+//        [UserCodeMethod] 
+//        public static void AssignNewkeywordToSearch()
+//        {
+//         
+//        	resultsSearch = Results;
+//        	//return resultsSearch;
+//        }
     }
 
     	
