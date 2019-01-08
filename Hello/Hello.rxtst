@@ -158,7 +158,7 @@ rxversion="8.2">
 		</DataSource>
 		<DataSource
 		id="a749a7a5-6401-4052-8d88-88727aef2287"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="1"
 		name="readfromgit"
 		type="Ranorex.Core.Data.CsvDataConnector"

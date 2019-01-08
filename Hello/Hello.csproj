@@ -170,6 +170,13 @@
     <None Include="app.config">
       <id>dce091de-c3e4-4256-8266-8eb130290560</id>
     </None>
+    <Content Include="hellocsv.csv">
+      <Link>hellocsv.csv</Link>
+      <BoundTo>8740ee5d-cee7-4d91-b54d-a3a421e8e591</BoundTo>
+      <DependentUpon>Hello.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b5552863-f753-424b-bbcd-9430f3077397</id>
+    </Content>
     <None Include="HelloRepository.rximg">
       <BoundTo>37313199-3eae-4529-aee7-cc0dce11c457</BoundTo>
       <DependentUpon>HelloRepository.rxrep</DependentUpon>

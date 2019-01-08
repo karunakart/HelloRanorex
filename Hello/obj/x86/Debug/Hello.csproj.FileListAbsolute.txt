@@ -12,7 +12,7 @@ D:\Learning\Ranorex\HelloRanorex\Hello\bin\Debug\Hello.rxtst
 D:\Learning\Ranorex\HelloRanorex\Hello\bin\Debug\Hello.exe.config
 D:\Learning\Ranorex\HelloRanorex\Hello\bin\Debug\Hello.exe
 D:\Learning\Ranorex\HelloRanorex\Hello\bin\Debug\Hello.pdb
-D:\Learning\Ranorex\HelloRanorex\Hello\bin\Debug\Ranorex.Core.Resolver.dll
-D:\Learning\Ranorex\HelloRanorex\Hello\obj\x86\Debug\Hello.csprojResolveAssemblyReference.cache
 D:\Learning\Ranorex\HelloRanorex\Hello\obj\x86\Debug\Hello.exe
 D:\Learning\Ranorex\HelloRanorex\Hello\obj\x86\Debug\Hello.pdb
+D:\Learning\Ranorex\HelloRanorex\Hello\bin\Debug\hellocsv.csv
+D:\Learning\Ranorex\HelloRanorex\Hello\obj\x86\Debug\ResolveAssemblyReference.cache

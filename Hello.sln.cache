@@ -31,11 +31,11 @@
     <AspNetConfiguration>$(Configuration)</AspNetConfiguration>
   </PropertyGroup>
   <PropertyGroup>
-    <SolutionDir>D:\Learning\Ranorex\HelloConnectGit\</SolutionDir>
+    <SolutionDir>D:\Learning\Ranorex\HelloRanorex\</SolutionDir>
     <SolutionExt>.sln</SolutionExt>
     <SolutionFileName>Hello.sln</SolutionFileName>
     <SolutionName>Hello</SolutionName>
-    <SolutionPath>D:\Learning\Ranorex\HelloConnectGit\Hello.sln</SolutionPath>
+    <SolutionPath>D:\Learning\Ranorex\HelloRanorex\Hello.sln</SolutionPath>
   </PropertyGroup>
   <PropertyGroup>
     <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '2.0'">v2.0</TargetFrameworkVersion>
